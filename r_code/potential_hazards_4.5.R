@@ -1,3 +1,8 @@
+# This is the R code for section "4.5 Potential Hazards". It was used to calculated the percent
+# change in visible area from the previous year for each lake and plot the number of lakes with
+# a percent change < -50% by dam type (Fig. 20). The data was filtered to exclude lakes
+# with a percent change >= 50% using Microsoft Excel (version 2605).
+
 library(dplyr)
 library(ggplot2)
 library(writexl)
