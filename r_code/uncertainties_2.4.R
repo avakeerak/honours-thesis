@@ -1,4 +1,7 @@
-library(tidyverse)
+# This is the R code for section "2.4 Uncertainties". It was used to calculate the uncertainties
+# both the precision and the accuracy using Equations 2, 3, and 4.
+
+library(dplyr)
 
 all_params_ec <- your_data_here
 
