@@ -1,3 +1,7 @@
+# This is the R code for section "3.1 Total Number of Glacial Lakes". 
+# It was used to create Fig. 5, a barplot of the total lake counts for each 
+# year, and Fig. 6, the rate of change in the total number of lakes.
+
 library(dplyr)
 library(extrafont)
 library(ggplot2)
@@ -16,7 +20,7 @@ ggplot(lake_count, aes(x = as.factor(Year), y = n_entries)) +
   labs(x = "Year", y = "Number of Lakes") +
   theme_bw() + theme(text = element_text(size = 16, family = "Cambria"))
 
-# import file with rates of change in lake counts (calculated in Microsoft Excel using code from B. Karchewski, 2025)
+# import file with rates of change in lake counts (calculated in Microsoft Excel (version 2605) using code from B. Karchewski, 2025)
 lake_count_rchange <- your_data_here
 
 # Figure 6 (plot of rate of change in lake counts)
