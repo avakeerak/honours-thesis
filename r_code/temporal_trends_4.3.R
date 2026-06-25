@@ -1,3 +1,9 @@
+# This is the R code used for section "4.3 Temporal Trends". It uses the previously calculated
+# rates of change in the total lake area for each connection type and dam type. The mean and 
+# median rates of change as well as the standard deviation were calculated using Microsoft
+# Excel (version 2605). Plots of the mean and median rates of change and the standard deviation
+# were created for each connection type (Fig. 18) and dam type (Fig. 19).
+
 library(ggplot2)
 
 # import df with mean, median, and standard deviation in the rate of change in the
