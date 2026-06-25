@@ -1,3 +1,8 @@
+# This is the R code corresponding to section "3.4 Regional Trends". It was used to create Figures 14-17,
+# which show the total lake counts or the total lake area for each region, colour-coded by either
+# connection type or dam type. There is a lot of repeated code, and I may simplify everything into
+# a single function in the future.
+
 library(dplyr)
 library(ggplot2)
 library(extrafont)
