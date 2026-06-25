@@ -1,6 +1,7 @@
 # This is the R code for section "3.1 Total Number of Glacial Lakes". 
 # It was used to create Fig. 5, a barplot of the total lake counts for each 
-# year, and Fig. 6, the rate of change in the total number of lakes.
+# year, and Fig. 6, the rate of change in the total number of lakes. Microsoft
+# Excel code from B. Karchewski (2025) was used to calculate the rate of change.
 
 library(dplyr)
 library(extrafont)
