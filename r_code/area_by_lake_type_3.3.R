@@ -1,3 +1,9 @@
+# This is the R code for section "3.3 Changes in Glacial Lake Area by Lake Type".
+# It was used to plot the total lake area for each year by connection type 
+# (Fig. 9) and dam type (Fig. 11). Microsfot Excel code from B. Karchewski (2025)
+# was used to find the rate of change in the total lake area and the rates of 
+# change were plotted for each connection type (Fig. 10) and dam type (Fig. 12).
+
 library(dplyr)
 library(extrafont)
 library(ggplot2)
@@ -5,7 +11,7 @@ library(ggplot2)
 # import data of all lakes w/in 2km buffer
 bufferedlakes <- your_data_here
 
-# import file with rates of change in lake area by connection type (calculated in Microsoft Excel using code from B. Karchewski, 2025)
+# import file with rates of change in lake area by connection type (calculated in Microsoft Excel (version 2605) using code from B. Karchewski, 2025)
 c_rate_of_change <- your_data_here
 
 # sum lake area by connection type and year, then convert to km2
